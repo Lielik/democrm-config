@@ -3,8 +3,6 @@ kind: Application
 metadata:
   name: ingress-nginx
   namespace: argocd
-  annotations:
-    demo/change: "updated-at-2025-09-20"
 spec:
   project: default
   source:
